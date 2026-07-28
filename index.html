@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="auth-screen">
+        <h1>AURA Journal</h1>
+        <p>Keep your memories alive.</p>
+        <input type="email" id="email-input" placeholder="ایمیل">
+        <input type="password" id="password-input" placeholder="رمز عبور">
+        <button id="signin-btn">ورود</button>
+        <button id="signup-btn">ساخت حساب</button>
+        <p id="auth-error" hidden style="color: red;"></p>
+    </div>
+
+    <div id="journal-screen" hidden>
+        <header>
+            <span id="user-label"></span>
+            <button id="signout-btn">خروج</button>
+        </header>
+        <main>
+            <textarea id="page-content" placeholder="اینجا بنویس..." disabled></textarea>
+            <span id="save-status">آماده</span>
+        </main>
+    </div>
+
+    <script type="module" src="journal.js"></script>
+</body>
+</html>
