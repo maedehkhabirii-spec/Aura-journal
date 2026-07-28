@@ -1,0 +1,59 @@
+body { 
+    font-family: 'Vazirmatn', sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    background: #f4f4f9; 
+    color: #333; 
+}
+
+#auth-screen, #journal-screen { 
+    max-width: 600px; 
+    margin: 50px auto; 
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+}
+
+input, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    font-family: inherit; 
+    box-sizing: border-box;
+}
+
+textarea { 
+    height: 300px; 
+    resize: vertical; 
+}
+
+button { 
+    background: #6366f1; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    margin: 5px; 
+}
+
+button:hover { 
+    background: #4f46e5; 
+}
+
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+#save-status { 
+    font-size: 0.8em; 
+    color: #10b981; 
+    float: left; 
+    margin-top: 10px; 
+}
